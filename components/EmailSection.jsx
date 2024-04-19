@@ -7,7 +7,7 @@ const EmailSection = () => {
 
     const [emailSubmitted, setEmailSubmitted] = useState(false);
 
-    const handleSubmit = async (e) => {
+    /*const handleSubmit = async (e) => {
         
             e.preventDefault();
             const data = {
@@ -38,7 +38,7 @@ const EmailSection = () => {
             console.log('Message sent.')
             setEmailSubmitted(true);
         }
-    }
+    }*/
 
   return (
     <section
@@ -81,7 +81,7 @@ const EmailSection = () => {
                     Email sent successfully!
                 </p>
             ) : (
-            <form className='flex flex-col' onSubmit={handleSubmit}>
+            <form className='flex flex-col'/* onSubmit={handleSubmit}*/>
                 <div className='mb-6'>
                     <label
                         htmlFor='email'
@@ -136,11 +136,11 @@ const EmailSection = () => {
                 </button>
                 {
                     // If the email was submitted successfully, show a success message
-                    emailSubmitted &&  (
+                    /*emailSubmitted &&  (
                         <p className='text-green-500 text-sm mt-2'>
                             Email sent successfully!
                         </p>
-                    )
+                    )*/
                 }
             </form>
             )}
