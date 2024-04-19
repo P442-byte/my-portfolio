@@ -74,7 +74,7 @@ const AboutSection = () => {
                 <p className=' text-base lg:text-lg'>
                     I am a full-stack web and game developer with a passion for creating interactive
                     and creative projects. I have experience working with Javascript, React, Node.js, HTML, CSS, Git,
-                     C#. Python, Django, Unity Game Engine, UnrealEngine and Blender. I am a quick learner and I am 
+                     C#. Python, Django, Unity Game Engine, Unreal Engine and Blender. I am a quick learner and I am 
                      always looking to expand my knowledge and skill set. I am a team player and I am excited to work 
                      with other&apos;s to create amazing games and applications.
                 </p>
